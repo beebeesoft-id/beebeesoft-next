@@ -54,12 +54,16 @@ export default function RootLayout({
                 </NavDropdown> */}
               </Nav>
               <Form className="d-flex">
+              <Link href="/pricing/development">
                 <Button variant="outline-success">Pricing</Button>
+              </Link>
               </Form>
             </Navbar.Collapse>
           </Container>
         </Navbar>
+        
         {children}
+
         <div>
             <main className="py-4 frame">
             <div className="container">

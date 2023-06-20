@@ -18,8 +18,8 @@ export default function Home() {
           <div className="row justify-content-center" >
               <div className="col-md-6 justify-content-center text-center" data-aos="fade-right">
                   
-                  <h1>IT Service And Software Development</h1>
-                  <h2>Beebeesoft</h2>
+                  <h2>IT Service And Software Development</h2>
+                  <h3>Beebeesoft</h3>
                   <p>Jasa layanan IT seperti : Pembuatan Website Company Profile, Ecommerce, Aplikasi Custom, Kursus Pemrograman, dan Konsultan IT.</p>
                   <a href="https://api.whatsapp.com/send?phone=6285797272095&text=beebeesoft-tanya" target="blank">
                     <button type="button" className="btn btn-primary">Konsultasi Sekarang</button>
@@ -34,8 +34,7 @@ export default function Home() {
           </div>
       </div>
       </main>
-      <br/>
-      <div className="container">
+      <div className="container bgWhite">
           <div className="row justify-content-center">
             <div className='hr'>
               <span className='hr-title'>Product and Services</span>

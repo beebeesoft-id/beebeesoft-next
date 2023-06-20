@@ -1,6 +1,22 @@
 
 @import 'bootstrap/dist/css/bootstrap.min.css';
 @import '@fortawesome/fontawesome-svg-core/styles.css';
+
+div.hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eee;
+  text-align: center;
+  height: 0px;
+  line-height: 0px;
+}
+
+.hr-title {
+  background-color: #fff;
+  font-weight: bold;
+}
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
