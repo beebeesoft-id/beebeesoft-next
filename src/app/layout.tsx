@@ -61,9 +61,11 @@ export default function RootLayout({
             </Navbar.Collapse>
           </Container>
         </Navbar>
-        
+        <div className='bgWhite'>
+
         {children}
 
+        </div>
         <div>
             <main className="py-4 frame">
             <div className="container">

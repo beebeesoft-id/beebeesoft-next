@@ -33,7 +33,7 @@ export default function Home() {
           </div>
       </div>
       </main>
-      <div className="container bgWhite">
+      <div className="container">
           <div className="row justify-content-center">
             <div className='hr'>
               <span className='hr-title'>Product and Services</span>
