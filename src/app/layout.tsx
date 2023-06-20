@@ -34,7 +34,7 @@ export default function RootLayout({
                 <meta name="author" content="BeeBeesoft Dev."></meta>
       </head>
       <body className={inter.className}>
-        <Navbar bg="light" data-bs-theme="light">
+        <Navbar fixed="top" bg="light" data-bs-theme="light" className="navbar navbar-expand-lg navbar-light bg-light bg-white shadow-sm">
           <Container>
             <Navbar.Brand href="/">
             <Image src="/img/logo/logo-name.png" width={100} height={50} alt="Logo Beebeesoft" />
@@ -65,7 +65,7 @@ export default function RootLayout({
           </Container>
         </Navbar>
         <div className='bgWhite'>
-
+        <br /><br /><br />
         {children}
 
         </div>
