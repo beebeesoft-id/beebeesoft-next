@@ -9,7 +9,6 @@ export default function Home() {
 
   return (
     <div className="body">
-      {/* <ComHeader></ComHeader> */}
       <main className="py-4 frame" style={{ 
         backgroundImage: "url('/img/app/bg-hexagonal.jpg')", 
         backgroundPosition: 'center' }}>
@@ -140,9 +139,6 @@ export default function Home() {
               
           </div>
       </div>
-{/* 
-      <ComArticle/>
-      <ComFooter/> */}
     </div>
   )
 }
