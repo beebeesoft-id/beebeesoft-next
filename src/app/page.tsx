@@ -1,95 +1,149 @@
 import Image from 'next/image'
-import styles from './page.module.css'
+import Link from 'next/link'
+import logoBeekasir from "../../public/img/logo/pos.png";
+import logoSiundang from "../../public/img/logo/siundang.svg";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCheckSquare, faGraduationCap, faHeadset, faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 
 export default function Home() {
+
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
+    <div className="body">
+      {/* <ComHeader></ComHeader> */}
+      <main className="py-4 frame" style={{ 
+        backgroundImage: "url('/img/app/bg-hexagonal.jpg')", 
+        backgroundPosition: 'center' }}>
+
+      <div className="container" >
+          <div className="row justify-content-center" >
+              <div className="col-md-6 justify-content-center text-center" data-aos="fade-right">
+                  
+                  <h1>IT Service And Software Development</h1>
+                  <h2>Beebeesoft</h2>
+                  <p>Jasa layanan IT seperti : Pembuatan Website Company Profile, Ecommerce, Aplikasi Custom, Kursus Pemrograman, dan Konsultan IT.</p>
+                  <a href="https://api.whatsapp.com/send?phone=6285797272095&text=beebeesoft-tanya" target="blank">
+                    <button type="button" className="btn btn-primary">Konsultasi Sekarang</button>
+                  </a> 
+                  &nbsp;
+                  <a href="https://buanaanekakimia.com/" target="blank" >
+                    <button type="button" className="btn btn-outline-primary">
+                      <i className="far fa-play-circle"></i> Lihat Contoh
+                    </button>
+                  </a>
+              </div>
+          </div>
       </div>
+      </main>
+      <br/>
+      <div className="container">
+          <div className="row justify-content-center">
+            <div className='hr'>
+              <span className='hr-title'>Product and Services</span>
+            </div>
+          </div>
+          <br/>
+          <div className="row justify-content-center">
+            
+            <div className="col-md-4" data-aos="fade-in">
+                <div className="d-flex">
+                  
+                  <div className="flex-shrink-0">
+                  <a href='https://play.google.com/store/apps/details?id=com.beebeesoft.beekasir'>
+                      <div className="shadow p-3 mb-5 bg-body rounded">
+                      <Image
+                        src={logoBeekasir}
+                        width={40}
+                        height={40}
+                        alt="Logo Beekasir"
+                      />
+                      </div>
+                  </a>
+                  </div>
+                  <div className="flex-grow-1 ms-3" >
+                      <b> BeeKasir </b>
+                      <p> Produk Aplikasi Kasir Untuk UMKM - Gratis Download di PlayStore </p>
+                      
+                  </div>
+                </div>
+            </div>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+            <div className="col-md-4" data-aos="fade-in">
+                  <div className="d-flex">
+                  <div className="flex-shrink-0">
+                  <a href='https://siundang.com'>
+                      <div className="shadow p-3 mb-5 bg-body rounded">
+                      <Image
+                        src={logoSiundang}
+                        width={40}
+                        height={40}
+                        alt="Logo Siundang"
+                      />
+                      </div>
+                  </a>
+                  </div>
+                  <div className="flex-grow-1 ms-3" >
+                      <b> Siundang </b>
+                      <p> Jasa Undangan Digital Wedding</p>
+                      
+                  </div>
+                  </div>
+            </div>
+
+            <div className="col-md-4" data-aos="fade-in">
+                  <div className="d-flex">
+                  <div className="flex-shrink-0">
+                      <Link href="/pricing/development">
+                      <div className="shadow p-3 mb-5 bg-body rounded">
+                      <FontAwesomeIcon icon={faLaptopCode} size='2x'/>
+                      </div>
+                      </Link>
+                  </div>
+                  <div className="flex-grow-1 ms-3" >
+                      <b> Software Development</b>
+                      <p> Jasa Pembuatan Software Website dan Aplikasi Mobile</p>
+                  </div>
+                  </div>
+            </div>
+
+            <div className="col-md-4" data-aos="fade-in">
+                  <div className="d-flex">
+                  <div className="flex-shrink-0">
+                      <a href='https://www.youtube.com/@beebeesofttv9458'>
+                      <div className="shadow p-3 mb-5 bg-body rounded">
+                      <FontAwesomeIcon icon={faGraduationCap} size='2x' />
+                      </div>
+                      </a>
+                  </div>
+                  <div className="flex-grow-1 ms-3" >
+                      <b> Kursus IT</b>
+                      <p> Dapatkan peluang karir di bidang IT dengan belajar Private.</p>
+                  </div>
+                  </div>
+              </div>
+              <div className="col-md-4" data-aos="fade-in">
+                  <div className="d-flex">
+                  <div className="flex-shrink-0">
+                      <a href="https://api.whatsapp.com/send?phone=6285797272095&text=beebeesoft-konsultasi">
+                      <div className="shadow p-3 mb-5 bg-body rounded">
+                      <FontAwesomeIcon icon={faHeadset} size='2x'/>
+                      </div>
+                      </a>
+                  </div>
+                  <div className="flex-grow-1 ms-3" >
+                      <b> Konsultan IT</b>
+                      <p> Konsultasi terkait kebutuhan IT atau Karir Gratis</p>
+                  </div>
+                  </div>
+              </div>
+
+
+
+              
+          </div>
       </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+{/* 
+      <ComArticle/>
+      <ComFooter/> */}
+    </div>
   )
 }
