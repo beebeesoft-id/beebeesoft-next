@@ -76,11 +76,11 @@ export default function RootLayout({
                     <div className="col-md-6">
                         
                         <h3>Hubungi Kami</h3>
-                        <p><a href="https://api.whatsapp.com/send?phone=6285797272095&text=info" target="blank">
-                            <i className="fab fa-whatsapp-square"></i> 0857 9727 2095
+                        <p><a href="https://api.whatsapp.com/send?phone=6285171064406&text=info" target="blank">
+                            <i className="fab fa-whatsapp-square"></i> 0851 7106 4406
                         </a></p>
                         <p><a href="#">
-                            <i className="fas fa-envelope-square"></i> info@beebeesoft.com
+                            <i className="fas fa-envelope-square"></i> admin@beebeesoft.com
                         </a></p>
                         <p><a href="https://www.instagram.com/beebeesoft.official/" target="blank">
                             <i className="fab fa-instagram"></i> BeeBeeSoft Official
@@ -90,7 +90,7 @@ export default function RootLayout({
                         <h3>Alamat Kami</h3>
                         <p className="text-right">Perum Panorama Asri Jl. Sumbawa No. 27</p>
                         <p className="text-right">Kec.Sukahaji Kab.Majalengka </p>
-                        <p className="text-right">+622338517798</p>
+                        <p className="text-right">Jawa Barat </p>
                         
                     </div>
                 </div>
