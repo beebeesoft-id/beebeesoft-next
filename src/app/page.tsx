@@ -68,7 +68,7 @@ export default function Home() {
             <div className="col-md-4" data-aos="fade-in">
                   <div className="d-flex">
                   <div className="flex-shrink-0">
-                  <a href='https://siundang.com'>
+                  <a href='http://perumahan.beebeesoft.com'>
                       <div className="shadow p-3 mb-5 bg-body rounded">
                       <Image
                         src={logoSiundang}
@@ -80,8 +80,8 @@ export default function Home() {
                   </a>
                   </div>
                   <div className="flex-grow-1 ms-3" >
-                      <b> Siundang </b>
-                      <p> Jasa Undangan Digital Wedding</p>
+                      <b> Company Profile </b>
+                      <p> Jasa Pembuata Website Perusahaan</p>
                       
                   </div>
                   </div>
