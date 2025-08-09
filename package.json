@@ -1,6 +1,6 @@
 {
   "name": "beebeesoft-next",
-  "version": "13.1.1",
+  "version": "13.2.0",
   "private": true,
   "scripts": {
     "dev": "next dev -p 3002",
