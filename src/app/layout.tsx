@@ -24,14 +24,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-                <title>BeeBeeSoft - IT Service and Software Development</title>
+                <title>Warza - IT Service and Software Development</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                 
                 <link rel="icon" type="image/png" href="/img/favicon.png"/>
                 <meta charSet="UTF-8"/>
-                <meta name="description" content="BeeBeeSoft Support your bussiness make easier with Technology."/>
-                <meta name="keywords" content="software development, beebeesoft"/>
-                <meta name="author" content="BeeBeesoft Dev."></meta>
+                <meta name="description" content="Warza Support your bussiness make easier with Technology."/>
+                <meta name="keywords" content="software development, Warza"/>
+                <meta name="author" content="Warza Dev."></meta>
       </head>
       <body className={inter.className}>
         <Navbar fixed="top" bg="light" data-bs-theme="light" className="navbar navbar-expand-lg navbar-light bg-light bg-white shadow-sm">
@@ -80,10 +80,10 @@ export default function RootLayout({
                             <i className="fab fa-whatsapp-square"></i> 0851 7106 4406
                         </a></p>
                         <p><a href="#">
-                            <i className="fas fa-envelope-square"></i> admin@beebeesoft.com
+                            <i className="fas fa-envelope-square"></i> admin@Warza.com
                         </a></p>
-                        <p><a href="https://www.instagram.com/beebeesoft.official/" target="blank">
-                            <i className="fab fa-instagram"></i> BeeBeeSoft Official
+                        <p><a href="https://www.instagram.com/Warza.official/" target="blank">
+                            <i className="fab fa-instagram"></i> Warza Official
                         </a></p>
                     </div>
                     <div className="col-md-6 text-end">
@@ -95,7 +95,7 @@ export default function RootLayout({
                     </div>
                 </div>
             </div>
-            <p className="text-center">Copyright &copy; <Link href="/" >BeeBeeSoft</Link></p>
+            <p className="text-center">Copyright &copy; <Link href="/" >Warza</Link></p>
             <p className="text-center">Version { mainPkg.version }</p>
             </main>
             
