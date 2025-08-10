@@ -37,7 +37,7 @@ export default function RootLayout({
         <Navbar fixed="top" bg="light" data-bs-theme="light" className="navbar navbar-expand-lg navbar-light bg-light bg-white shadow-sm">
           <Container>
             <Navbar.Brand href="/">
-            <Image src="/img/logo/logo-name.png" width={100} height={50} alt="Logo Beebeesoft" />
+            <Image src="/img/logo/logo-warza-vertical.png" width={100} height={50} alt="Logo Warza" />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
